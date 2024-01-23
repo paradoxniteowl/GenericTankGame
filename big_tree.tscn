@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckmk80hbtefu1"]
+
+[ext_resource type="Texture2D" uid="uid://jsqhpb3dijlo" path="res://treeLarge.png" id="1_0x2as"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kaf32"]
+radius = 61.0328
+
+[node name="big_tree" type="Sprite2D"]
+texture = ExtResource("1_0x2as")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-4, 0)
+shape = SubResource("CircleShape2D_kaf32")
