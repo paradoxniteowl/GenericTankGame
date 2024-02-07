@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dlovm1g15yt7y"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 247.0
+offset_top = 185.0
+offset_right = 1140.0
+offset_bottom = 361.0
+theme_override_font_sizes/font_size = 108
+text = "YOU DIED!"
